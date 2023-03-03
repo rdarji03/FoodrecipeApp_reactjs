@@ -1,0 +1,157 @@
+.main_container {
+    min-height: 100vh;
+    display: flex;
+    margin: 1.5rem 0;
+}
+
+.container {
+    width: 100%;
+}
+
+.search_panel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.gif {
+    height: 3rem;
+}
+
+.inputpart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.user_input {
+    border: 1px solid #EF8D9C;
+    outline: 0;
+    width: 20%;
+    padding: 0.7rem;
+}
+
+.searchbtn {
+    cursor: pointer;
+    font-size: 1rem;
+    background: white;
+    border: 1px solid #EF8D9C;
+    padding: 0.7rem;
+    font-weight: 600;
+    color: #EF8D9C;
+    transition: 0.5s;
+}
+
+.searchbtn:hover {
+    background-color: #EF8D9C;
+    color: white;
+}
+
+.search_result {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background: linear-gradient(to bottom left, #EF8D9C 100%, #FFC39E 100%);
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 25rem;
+    height: 40rem;
+    margin: 2rem;
+    justify-content: space-around;
+}
+
+.card_image {
+    display: flex;
+    justify-content: center;
+}
+
+.card_image img {
+    height: 19rem;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.card_content {
+    padding: 1rem;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card_title {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card_text {
+    color: black;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.btn {
+    color: black;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 2px solid;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 90%;
+    cursor: pointer;
+    border: 2px solid rgba(0, 0, 0);
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn a {
+    font-weight: bold;
+    color: black;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.status {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.s_btn {
+    height: fit-content;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:560px) {
+    .user_input {
+        width: 50%;
+    }
+    .status h1 {
+        font-size: 1.2rem;
+    }
+    .card_text {
+        font-size: 1rem;
+    }
+}

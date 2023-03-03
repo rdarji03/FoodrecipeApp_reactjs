@@ -1,0 +1,15 @@
+.privacy {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.privacy_form {
+    width: 90%;
+    border: 2px solid;
+    margin: 5rem 0;
+}
+
+h2 {
+    padding: 1rem 0;
+}

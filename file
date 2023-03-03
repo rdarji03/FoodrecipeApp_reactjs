@@ -1,0 +1,29 @@
+// function showresult() { // const result=document.querySelector(".search_result") // let inptext = document.querySelector(".user_input").value.trim(); // const APP_ID = "65f8da3b"; // const APP_KEY = "a8d19589033daabef1363597e7011487"; // const url
+= `https://api.edamam.com/search?q=${inptext}&app_id=${APP_ID}&app_key=${APP_KEY}&from=0&to=20`; // fetch(url) // .then((resposne) => resposne.json()) // .then((data) => { // let html="" // if(data.hits.length>=1){ // data.hits.forEach((meal)=>{ // console.log("present")
+// html +=` //
+<div className="card">
+    //
+    <div className="card_image">
+        // <img // src="https://picsum.photos/500/300/?image=10" // alt="unable to preview" // /> // </div>
+    //
+    <div className="card_content">
+        //
+        <h2 className="card_title">Card Grid Layout</h2>
+        //
+        <p className="card_text">
+            // Demo of pixel perfect pure CSS simple responsive card grid // layout // </p>
+        // <button className="btn card_btn">Read More</button> // </div>
+    // </div>
+// ` // result.innerHTML = html // }) // } // }); // } { /*
+<div className="card">
+    <div className="card_image">
+        <img src="https://picsum.photos/500/300/?image=10" alt="unable to preview" />
+    </div>
+    <div className="card_content">
+        <h2 className="card_title">Card Grid Layout</h2>
+        <p className="card_text">
+            Demo of pixel perfect pure CSS simple responsive card grid layout
+        </p>
+        <button className="btn card_btn">Read More</button>
+    </div>
+</div> */ }

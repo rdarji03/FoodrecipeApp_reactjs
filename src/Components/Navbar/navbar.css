@@ -1,0 +1,84 @@
+.navbar {
+    top: 0;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    background-color: #2f2f2f;
+    width: 100%;
+    z-index: 3;
+}
+
+.nav {
+    margin: 0.5rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.bname a {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #EF8D9C;
+}
+
+.links li a {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin: 0 1.5rem;
+    color: #EF8D9C;
+}
+
+.menuicon img {
+    height: 2rem;
+    width: auto;
+}
+
+.menuicon {
+    display: none;
+}
+
+@media screen and (max-width:560px) {
+    .menuicon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav {
+        justify-content: space-around;
+    }
+    .closemenu {
+        cursor: pointer;
+        display: none;
+    }
+    .openmenu {
+        cursor: pointer;
+        display: block;
+    }
+    .links {
+        transition: 0.5s;
+        width: max-content;
+        background: #2f2f2f;
+        position: absolute;
+        right: -13rem;
+        padding: 10px;
+        height: 100vh;
+        top: 3rem;
+        flex-direction: column;
+    }
+    .links li {
+        margin: 1rem 0;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .bname a {
+        font-size: 1.5rem;
+    }
+}
